@@ -1,7 +1,7 @@
 {
   "name": "websocket_chat_app",
   "version": "1.0.0",
-  "description": "Minimal real time chat room app using React, Node and a websocket or two...",
+  "description": "Rudimentary real-time messenger app using React, Node and a websocket or two...",
   "main": "index.js",
   "author": "Jack Murphy",
   "license": "MIT",
