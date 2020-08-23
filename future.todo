@@ -1,0 +1,9 @@
+- [] Add login for users.
+- [] Emoji support in messages.
+- [] Persist messages in either a database or perhaps localStorage.
+- [] Add voice recording in messages.
+- [] Fast rendering with a server-side draw and hydrate app.
+- [] Unit tests to project for module reliability.
+- [] Add *[name] is talking* when input is not empty.
+- [] Include Redux for more scalable state management.
+- [] Monetise by adding adverts :)

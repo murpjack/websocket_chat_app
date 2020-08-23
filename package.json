@@ -6,6 +6,9 @@
   "author": "Jack Murphy",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start-socket": "node server"
+  },
   "babel": {
     "presets": [
       "@babel/preset-env",
