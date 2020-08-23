@@ -17,30 +17,32 @@ const StyledApp = styled.div`
 
 const StyledHeader = styled.div`
   background-color: ${colours.bgPrimary};
-  height: 75px;
+  border-bottom: 2px solid ${colours.borderPrimary};
+  height: 50px;
   margin: 0 0 30px;
   text-align: center;
   width: 100%;
 `;
 
 const StyledTitle = styled.h1`
-  color: #fff;
-  line-height: 75px;
+  color: ${colours.fontPrimary};
+  line-height: 50px;
   margin: 0;
   text-align: center;
-  width: 100%;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: 600;
 `;
 
 function App() {
   return (
     <StyledApp className="App">
       <StyledHeader>
-        <StyledTitle>Chatty</StyledTitle>
+        <StyledTitle>CHATTY</StyledTitle>
       </StyledHeader>
       <Chat />
     </StyledApp>
   );
 }
-
 
 export default App
