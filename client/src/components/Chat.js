@@ -29,10 +29,10 @@ export const Chat = () => {
   useEffect(() => {
     // This useEffect is called only once, so messages = [] when onMessage is called
     ws.onopen = () => console.log('connected');
-    // automatically try to reconnect on connection loss
-    ws.onclose = () => { console.log('disconnected'); setWs(new WebSocket(URL))}
     // set Latest using a hook and watch for changes
     ws.onmessage = e => setLatest(JSON.parse(e.data));
+    // automatically try to reconnect on connection loss
+    ws.onclose = () => { console.log('disconnected'); setWs(new WebSocket(URL))}
   }, []);
 
 
